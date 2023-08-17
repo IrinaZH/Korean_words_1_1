@@ -1,0 +1,85 @@
+body {
+  background-color: #f7f6fb;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 48, 192);
+  margin: 0 15% 0 15%;
+  
+  
+}
+.item {
+  display: inline-block;
+  text-align: left;
+}
+.container {
+  
+  display: inline-block;
+  width: 830px;
+  height: 30px;
+  text-align: center;
+  
+  
+  
+  background-color: rgb(250, 238, 224);
+  color: rgb(100, 48, 192);
+  margin: 0 auto;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: rgb(95, 42, 185);
+  border-style: solid;
+  border-width: 0 1px 2px 0;
+  font-size: 20px;
+  border-radius: 15px;
+  
+}
+
+.container:hover {
+  
+  transition-duration: 2s;
+  /*transform: rotate(360deg);
+  width: 400px;*/
+  background-color: rgb(142, 92, 235);
+  color: rgb(250, 238, 224);
+}
+#listen {
+  width: 30px;
+  height: 30px;
+  
+}
+#listen:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 10px;
+  transform: scale(1.1);
+}
+
+
+.item-listen {
+  width: 40px;
+  
+}
+.item-english {
+  width: 290px;
+  font-weight: 700;
+  padding-left: 60px;
+}
+.item-translate{
+  width: 320px;
+}
+.item-star {
+  width: 50px;
+  text-align: right;
+}
+
+.star-button {
+  width: 24px;
+  height: 26px;
+  border: none;
+  border-radius: 6px;
+  background-image: url(/img/icons8-star-48_1.png); /* Путь к фоновому изображению */
+  background-color: rgb(250, 238, 224);
+  background-size: cover;
+  
+}
+
+

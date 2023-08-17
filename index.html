@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\style.css" type="text/css"/>
+  <link rel="icon" href="img\favicon.png" type="image/x-icon">
+  <title>words from series</title>
+</head>
+<body>
+  <div class='container'>
+    <div onmouseover="PlaySound('mySound-1')" class="item item-listen"><img id="listen" onmousedown="PlaySound('mySound-1')" src="img\icons8-volume-64_1.png" title="Listen to 
+    pronunciation" alt="Click on me"></div>
+    <audio id='mySound-1'src="sounds\concession.mp3"></audio>
+    <div  class="item item-english">concession</div>
+    <div class="item item-translate">скидка</div>
+    <div class="item item-star">
+      <button class="star-button"></button>
+    </div>
+
+
+  </div>
+  <script src="js\script.js"></script> 
+</body>
+</html>
